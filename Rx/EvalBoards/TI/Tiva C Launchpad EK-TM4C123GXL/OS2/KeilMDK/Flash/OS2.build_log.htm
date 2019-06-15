@@ -1,0 +1,188 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Brendan\Documents\College\UMICH Dearborn\ECE 473\Final Project\Github\TIVA_CAN_Bus_Project\Rx\EvalBoards\TI\Tiva C Launchpad EK-TM4C123GXL\OS2\KeilMDK\OS2.uvproj
+Project File Date:  04/07/2019
+
+<h2>Output:</h2>
+Rebuild target 'FLASH'
+compiling app.c...
+C:\Keil\ARM\CMSIS\Include\core_cm4.h(1392): warning:  #47-D: incompatible redefinition of macro "ITM_BASE" (declared at line 123 of "..\..\BSP\inc/hw_memmap.h")
+  #define ITM_BASE            (0xE0000000UL)                            /*!< ITM Base Address                   */
+C:\Keil\ARM\CMSIS\Include\core_cm4.h(1393): warning:  #47-D: incompatible redefinition of macro "DWT_BASE" (declared at line 124 of "..\..\BSP\inc/hw_memmap.h")
+  #define DWT_BASE            (0xE0001000UL)                            /*!< DWT Base Address                   */
+C:\Keil\ARM\CMSIS\Include\core_cm4.h(1397): warning:  #47-D: incompatible redefinition of macro "NVIC_BASE" (declared at line 126 of "..\..\BSP\inc/hw_memmap.h")
+  #define NVIC_BASE           (SCS_BASE +  0x0100UL)                    /*!< NVIC Base Address                  */
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1545): warning:  #47-D: incompatible redefinition of macro "WATCHDOG0_BASE" (declared at line 51 of "..\..\BSP\inc/hw_memmap.h")
+  #define WATCHDOG0_BASE                  0x40000000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1546): warning:  #47-D: incompatible redefinition of macro "WATCHDOG1_BASE" (declared at line 52 of "..\..\BSP\inc/hw_memmap.h")
+  #define WATCHDOG1_BASE                  0x40001000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1551): warning:  #47-D: incompatible redefinition of macro "SSI0_BASE" (declared at line 57 of "..\..\BSP\inc/hw_memmap.h")
+  #define SSI0_BASE                       0x40008000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1552): warning:  #47-D: incompatible redefinition of macro "SSI1_BASE" (declared at line 58 of "..\..\BSP\inc/hw_memmap.h")
+  #define SSI1_BASE                       0x40009000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1553): warning:  #47-D: incompatible redefinition of macro "SSI2_BASE" (declared at line 59 of "..\..\BSP\inc/hw_memmap.h")
+  #define SSI2_BASE                       0x4000A000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1554): warning:  #47-D: incompatible redefinition of macro "SSI3_BASE" (declared at line 60 of "..\..\BSP\inc/hw_memmap.h")
+  #define SSI3_BASE                       0x4000B000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1555): warning:  #47-D: incompatible redefinition of macro "UART0_BASE" (declared at line 61 of "..\..\BSP\inc/hw_memmap.h")
+  #define UART0_BASE                      0x4000C000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1556): warning:  #47-D: incompatible redefinition of macro "UART1_BASE" (declared at line 62 of "..\..\BSP\inc/hw_memmap.h")
+  #define UART1_BASE                      0x4000D000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1557): warning:  #47-D: incompatible redefinition of macro "UART2_BASE" (declared at line 63 of "..\..\BSP\inc/hw_memmap.h")
+  #define UART2_BASE                      0x4000E000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1558): warning:  #47-D: incompatible redefinition of macro "UART3_BASE" (declared at line 64 of "..\..\BSP\inc/hw_memmap.h")
+  #define UART3_BASE                      0x4000F000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1559): warning:  #47-D: incompatible redefinition of macro "UART4_BASE" (declared at line 65 of "..\..\BSP\inc/hw_memmap.h")
+  #define UART4_BASE                      0x40010000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1560): warning:  #47-D: incompatible redefinition of macro "UART5_BASE" (declared at line 66 of "..\..\BSP\inc/hw_memmap.h")
+  #define UART5_BASE                      0x40011000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1561): warning:  #47-D: incompatible redefinition of macro "UART6_BASE" (declared at line 67 of "..\..\BSP\inc/hw_memmap.h")
+  #define UART6_BASE                      0x40012000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1562): warning:  #47-D: incompatible redefinition of macro "UART7_BASE" (declared at line 68 of "..\..\BSP\inc/hw_memmap.h")
+  #define UART7_BASE                      0x40013000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1563): warning:  #47-D: incompatible redefinition of macro "I2C0_BASE" (declared at line 69 of "..\..\BSP\inc/hw_memmap.h")
+  #define I2C0_BASE                       0x40020000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1564): warning:  #47-D: incompatible redefinition of macro "I2C1_BASE" (declared at line 70 of "..\..\BSP\inc/hw_memmap.h")
+  #define I2C1_BASE                       0x40021000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1565): warning:  #47-D: incompatible redefinition of macro "I2C2_BASE" (declared at line 71 of "..\..\BSP\inc/hw_memmap.h")
+  #define I2C2_BASE                       0x40022000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1566): warning:  #47-D: incompatible redefinition of macro "I2C3_BASE" (declared at line 72 of "..\..\BSP\inc/hw_memmap.h")
+  #define I2C3_BASE                       0x40023000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1569): warning:  #47-D: incompatible redefinition of macro "PWM0_BASE" (declared at line 77 of "..\..\BSP\inc/hw_memmap.h")
+  #define PWM0_BASE                       0x40028000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1570): warning:  #47-D: incompatible redefinition of macro "PWM1_BASE" (declared at line 78 of "..\..\BSP\inc/hw_memmap.h")
+  #define PWM1_BASE                       0x40029000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1571): warning:  #47-D: incompatible redefinition of macro "QEI0_BASE" (declared at line 79 of "..\..\BSP\inc/hw_memmap.h")
+  #define QEI0_BASE                       0x4002C000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1572): warning:  #47-D: incompatible redefinition of macro "QEI1_BASE" (declared at line 80 of "..\..\BSP\inc/hw_memmap.h")
+  #define QEI1_BASE                       0x4002D000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1573): warning:  #47-D: incompatible redefinition of macro "TIMER0_BASE" (declared at line 81 of "..\..\BSP\inc/hw_memmap.h")
+  #define TIMER0_BASE                     0x40030000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1574): warning:  #47-D: incompatible redefinition of macro "TIMER1_BASE" (declared at line 82 of "..\..\BSP\inc/hw_memmap.h")
+  #define TIMER1_BASE                     0x40031000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1575): warning:  #47-D: incompatible redefinition of macro "TIMER2_BASE" (declared at line 83 of "..\..\BSP\inc/hw_memmap.h")
+  #define TIMER2_BASE                     0x40032000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1576): warning:  #47-D: incompatible redefinition of macro "TIMER3_BASE" (declared at line 84 of "..\..\BSP\inc/hw_memmap.h")
+  #define TIMER3_BASE                     0x40033000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1577): warning:  #47-D: incompatible redefinition of macro "TIMER4_BASE" (declared at line 85 of "..\..\BSP\inc/hw_memmap.h")
+  #define TIMER4_BASE                     0x40034000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1578): warning:  #47-D: incompatible redefinition of macro "TIMER5_BASE" (declared at line 86 of "..\..\BSP\inc/hw_memmap.h")
+  #define TIMER5_BASE                     0x40035000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1579): warning:  #47-D: incompatible redefinition of macro "WTIMER0_BASE" (declared at line 87 of "..\..\BSP\inc/hw_memmap.h")
+  #define WTIMER0_BASE                    0x40036000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1580): warning:  #47-D: incompatible redefinition of macro "WTIMER1_BASE" (declared at line 88 of "..\..\BSP\inc/hw_memmap.h")
+  #define WTIMER1_BASE                    0x40037000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1581): warning:  #47-D: incompatible redefinition of macro "ADC0_BASE" (declared at line 89 of "..\..\BSP\inc/hw_memmap.h")
+  #define ADC0_BASE                       0x40038000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1582): warning:  #47-D: incompatible redefinition of macro "ADC1_BASE" (declared at line 90 of "..\..\BSP\inc/hw_memmap.h")
+  #define ADC1_BASE                       0x40039000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1583): warning:  #47-D: incompatible redefinition of macro "COMP_BASE" (declared at line 91 of "..\..\BSP\inc/hw_memmap.h")
+  #define COMP_BASE                       0x4003C000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1584): warning:  #47-D: incompatible redefinition of macro "CAN0_BASE" (declared at line 93 of "..\..\BSP\inc/hw_memmap.h")
+  #define CAN0_BASE                       0x40040000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1585): warning:  #47-D: incompatible redefinition of macro "CAN1_BASE" (declared at line 94 of "..\..\BSP\inc/hw_memmap.h")
+  #define CAN1_BASE                       0x40041000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1586): warning:  #47-D: incompatible redefinition of macro "WTIMER2_BASE" (declared at line 95 of "..\..\BSP\inc/hw_memmap.h")
+  #define WTIMER2_BASE                    0x4004C000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1587): warning:  #47-D: incompatible redefinition of macro "WTIMER3_BASE" (declared at line 96 of "..\..\BSP\inc/hw_memmap.h")
+  #define WTIMER3_BASE                    0x4004D000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1588): warning:  #47-D: incompatible redefinition of macro "WTIMER4_BASE" (declared at line 97 of "..\..\BSP\inc/hw_memmap.h")
+  #define WTIMER4_BASE                    0x4004E000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1589): warning:  #47-D: incompatible redefinition of macro "WTIMER5_BASE" (declared at line 98 of "..\..\BSP\inc/hw_memmap.h")
+  #define WTIMER5_BASE                    0x4004F000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1590): warning:  #47-D: incompatible redefinition of macro "USB0_BASE" (declared at line 99 of "..\..\BSP\inc/hw_memmap.h")
+  #define USB0_BASE                       0x40050000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1597): warning:  #47-D: incompatible redefinition of macro "EEPROM_BASE" (declared at line 115 of "..\..\BSP\inc/hw_memmap.h")
+  #define EEPROM_BASE                     0x400AF000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1598): warning:  #47-D: incompatible redefinition of macro "SYSEXC_BASE" (declared at line 118 of "..\..\BSP\inc/hw_memmap.h")
+  #define SYSEXC_BASE                     0x400F9000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1599): warning:  #47-D: incompatible redefinition of macro "HIB_BASE" (declared at line 119 of "..\..\BSP\inc/hw_memmap.h")
+  #define HIB_BASE                        0x400FC000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1600): warning:  #47-D: incompatible redefinition of macro "FLASH_CTRL_BASE" (declared at line 120 of "..\..\BSP\inc/hw_memmap.h")
+  #define FLASH_CTRL_BASE                 0x400FD000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1601): warning:  #47-D: incompatible redefinition of macro "SYSCTL_BASE" (declared at line 121 of "..\..\BSP\inc/hw_memmap.h")
+  #define SYSCTL_BASE                     0x400FE000UL
+C:\Keil\ARM\Inc\TI\TM4C123\tm4c123gh6pm.h(1602): warning:  #47-D: incompatible redefinition of macro "UDMA_BASE" (declared at line 122 of "..\..\BSP\inc/hw_memmap.h")
+  #define UDMA_BASE                       0x400FF000UL
+..\app.c(298): warning:  #177-D: variable "err" was declared but never referenced
+                INT8U err;
+..\app.c(303): warning:  #177-D: variable "intensity" was declared but never referenced
+                float intensity;
+..\app.c: 51 warnings, 0 errors
+compiling app_hooks.c...
+compiling bsp.c...
+compiling bsp_int.c...
+compiling bsp_led.c...
+..\..\BSP\bsp_led.c(194): warning: C4017W: pins_set may be used before being set
+    CPU_INT32U  pins_set;
+..\..\BSP\bsp_led.c(193): warning: C4017W: pins_clr may be used before being set
+    CPU_INT32U  pins_clr;
+..\..\BSP\bsp_led.c: 2 warnings, 0 errors
+compiling bsp_sys.c...
+compiling cpu_bsp.c...
+assembling cstartup.s...
+compiling cpu_core.c...
+assembling cpu_a.asm...
+compiling cpu_c.c...
+compiling lib_ascii.c...
+compiling lib_math.c...
+compiling lib_mem.c...
+compiling lib_str.c...
+..\..\..\..\..\uC-LIB\lib_str.c(3468): warning: C4017W: nbr_neg_fmtd may be used before being set
+    CPU_BOOLEAN   nbr_neg_fmtd;
+..\..\..\..\..\uC-LIB\lib_str.c(3454): warning: C4017W: nbr_fmt may be used before being set
+    CPU_INT32U    nbr_fmt;
+..\..\..\..\..\uC-LIB\lib_str.c: 2 warnings, 0 errors
+assembling lib_mem_a.asm...
+compiling os_core.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+assembling os_cpu_a.asm...
+compiling os_cpu_c.c...
+..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_c.c(381): warning:  #223-D: function "OS_CPU_FP_Reg_Push" declared implicitly
+          OS_CPU_FP_Reg_Push(OSTCBCur->OSTCBStkPtr);
+..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_c.c(385): warning:  #223-D: function "OS_CPU_FP_Reg_Pop" declared implicitly
+          OS_CPU_FP_Reg_Pop(OSTCBHighRdy->OSTCBStkPtr);
+..\..\..\..\..\uCOS-II\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu_c.c: 2 warnings, 0 errors
+compiling os_dbg.c...
+compiling adc.c...
+compiling can.c...
+compiling comp.c...
+compiling cpu.c...
+compiling eeprom.c...
+compiling flash.c...
+compiling fpu.c...
+compiling gpio.c...
+compiling hibernate.c...
+compiling i2c.c...
+compiling interrupt.c...
+compiling mpu.c...
+compiling pwm.c...
+compiling qei.c...
+compiling ssi.c...
+compiling sw_crc.c...
+compiling sysctl.c...
+compiling sysexc.c...
+compiling systick.c...
+compiling timer.c...
+compiling uart.c...
+compiling udma.c...
+compiling usb.c...
+compiling watchdog.c...
+compiling uartstdio.c...
+linking...
+Program Size: Code=21970 RO-data=2038 RW-data=1644 ZI-data=8308  
+".\Flash\OS2.axf" - 0 Error(s), 57 Warning(s).
+</pre>
+</body>
+</html>
